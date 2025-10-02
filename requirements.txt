@@ -1,0 +1,17 @@
+# Core app
+streamlit==1.50.0      # latest stable as of Sep 2025 [Docs/Release notes] [web:27][web:33]
+pandas==2.2.2          # widely compatible with py3.10–3.12 and sklearn 1.5–1.7 [web:39]
+numpy==2.1.1           # compatible with pandas 2.2 and sklearn 1.7 [web:39]
+scikit-learn==1.7.2    # latest stable as of Sep 2025 [web:37][web:39]
+
+# NLP
+nltk==3.9.1            # current stable, works with Python 3.8+ [general guidance] [web:22]
+wordcloud==1.9.3       # stable for py>=3.8, used for EDA clouds [general guidance] [web:39]
+
+# Visualization (used by the app)
+matplotlib==3.9.2      # compatible with numpy 2.x [general compatibility] [web:39]
+seaborn==0.13.2        # works with pandas 2.x and matplotlib 3.9 [general compatibility] [web:39]
+plotly==5.24.1         # satisfies sklearn example req >=5.14.0; stable in 2025 [web:39]
+
+# Optional: performance and extras
+tqdm==4.66.5           # progress bars if added later [general best practice] [web:39]
